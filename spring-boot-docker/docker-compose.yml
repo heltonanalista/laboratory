@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  book-service-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: samples/book-service-api
+    ports:
+      - "8080:8080"
