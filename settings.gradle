@@ -1,2 +1,4 @@
 rootProject.name = 'laboratory'
 include 'spring-boot-docker'
+include 'Stream'
+
