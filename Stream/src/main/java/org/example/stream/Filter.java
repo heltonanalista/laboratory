@@ -1,9 +1,9 @@
-package org.example.filter;
+package org.example.stream;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class FilterStream {
+public class Filter {
 public void filtering() {
     List<String> filteringNames = Arrays.asList("ana", "leticia", "pedro", "sofia", "joao", "carlos", "wilson", "bruno", "beatriz","paula");
     List<String> resultsNames = filteringNames.stream().filter(name -> name.startsWith("b")).toList();

@@ -1,9 +1,9 @@
-package org.example.filter;
+package org.example.stream;
 
 import java.util.Arrays;
 import java.util.List;
 
-public class ReduceStream {
+public class Reduce {
     public void reducing() {
         List<String> reducingLetters= Arrays.asList("A", "B", "C", "D", "E", "F", "G", "H", "I","J");
         String reducedLetters= reducingLetters.stream().reduce("",(X,Y)->X+Y);
