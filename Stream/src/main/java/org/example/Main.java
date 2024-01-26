@@ -1,7 +1,12 @@
 package org.example;
 
+import org.example.filter.FilterStream;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        FilterStream filterStream=new FilterStream();
+        filterStream.filtering();
+
     }
 }
