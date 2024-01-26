@@ -1,12 +1,13 @@
 package org.example;
 
 import org.example.filter.FilterStream;
+import org.example.filter.ReduceStream;
 
 public class Main {
     public static void main(String[] args) {
 
-        FilterStream filterStream=new FilterStream();
-        filterStream.filtering();
+        ReduceStream reduceStream=new ReduceStream();
+        reduceStream.reducing();
 
     }
 }
