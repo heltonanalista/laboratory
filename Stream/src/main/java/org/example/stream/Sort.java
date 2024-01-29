@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class Sorted {
+public class Sort {
 
     public void sorting() {
         List<String> sortingNames = Arrays.asList("ana", "leticia", "pedro", "sofia", "joao", "carlos", "wilson", "bruno", "beatriz","paula");

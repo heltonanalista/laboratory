@@ -1,12 +1,13 @@
 package org.example;
 
-import org.example.stream.Sorted;
+import org.example.stream.Map;
+import org.example.stream.Sort;
 
 public class Main {
     public static void main(String[] args) {
 
-        Sorted sorted =new Sorted();
-        sorted.sorting();
+        Map map=new Map();
+        map.maping();
 
     }
 }
