@@ -3,14 +3,14 @@ package org.example.stream;
 import java.util.Arrays;
 import java.util.List;
 
-public class Max {
+public class Min {
 
-    public void Max() {
+    public void Min() {
         List<Integer> findNumbers = Arrays.asList(45, 29, 38, 74);
-        int value = findNumbers.stream().mapToInt(x->x).max().orElse(0);
+        int value = findNumbers.stream().mapToInt(x->x).min().orElse(0);
 
 
-        System.out.println("Printing the maximum number");
+        System.out.println("Printing the minimum number");
         System.out.println(value);
 
 
