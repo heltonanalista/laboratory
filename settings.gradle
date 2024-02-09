@@ -5,4 +5,5 @@ include 'test'
 include 'junit'
 include 'mockito'
 include 'selenium'
+include 'mongodb'
 

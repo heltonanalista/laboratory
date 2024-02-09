@@ -1,4 +1,4 @@
-package org.example.Service;
+package org.example.service;
 
 import org.example.Model.People;
 import org.example.Repository.PeopleRepository;
